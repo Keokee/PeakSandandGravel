@@ -4,6 +4,12 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+
+span.new {
+	color: #063575 !important;
+	font-weight: bold;
+	
+}
 body {
   margin: 0;
 }
@@ -691,6 +697,7 @@ h3#returnmessage {
     padding: 40px;
   }
 }
+
 /* 700px ---------------------------*/
 @media screen and (max-width: 700px) {
   .slidesjs-container {
