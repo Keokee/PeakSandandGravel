@@ -4,6 +4,12 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+
+span.new {
+	color: #063575 !important;
+	font-weight: bold;
+	
+}
 body {
   margin: 0;
 }
@@ -164,7 +170,7 @@ nav.menu {
   text-align: center;
 }
 .menu {
-    background:URL('/img/menu-services-quarry-locations.jpg') no-repeat;
+    background:URL('../img/menu-services-quarry-locations.jpg') no-repeat;
     background-position: 50% 0;
     margin: 0 auto;
 }
@@ -266,12 +272,12 @@ a:hover.slidesjs-previous,a:hover.slidesjs-next,a:focus,a:focus.slidesjs-next {
   filter: alpha(opacity=100);
 }
 a.slidesjs-previous {
-  background:url('/img/leftArrow.png') no-repeat;
+  background:url('../img/leftArrow.png') no-repeat;
   left: -444px;
   top: -257px;
 }
 a.slidesjs-next {
-  background:url('/img/rightArrow.png') no-repeat;
+  background:url('../img/rightArrow.png') no-repeat;
   right: -444px;
   top: -257px;
 }
@@ -279,7 +285,7 @@ a.slidesjs-next {
   height:514px;
 }
 .quarry {
-  background:url('/img/footer.jpg') no-repeat center;
+  background:url('../img/footer.jpg') no-repeat center;
   height: 264px;
   margin: 26px auto;
 }
@@ -294,30 +300,30 @@ a.slidesjs-next {
   background-size: cover;
 }
 .featureOne {
-  background-image: url('/img/quarries-f1.jpg');
+  background-image: url('../img/quarries-f1.jpg');
   border-right: 5px solid #fff;
 }
 .featureTwo {
-  background-image: url('/img/services-f2.jpg');
+  background-image: url('../img/services-f2.jpg');
   border-right: 5px solid #fff; 
   border-left: 5px solid #fff;
 }
 .featureThree {
-  background-image: url('/img/logistics-f3.jpg');
+  background-image: url('../img/logistics-f3.jpg');
   border-left: 5px solid #fff;
 }
 .servicesOne {
-  background:url('/img/logistics-f3.jpg') no-repeat;
+  background:url('../img/logistics-f3.jpg') no-repeat;
   padding:50px;
   margin-bottom: 12px;
 }
 .servicesTwo {
-  background:url('/img/hauling-150728.jpg') no-repeat;
+  background:url('../img/hauling-150728.jpg') no-repeat;
   padding:50px;
   margin-bottom: 12px;
 }
 .servicesThree {
-  background:url('/img/custom-crushing-150728.jpg') no-repeat;
+  background:url('../img/custom-crushing-150728.jpg') no-repeat;
   padding:50px;  
   margin-bottom: 12px;
 }
@@ -360,9 +366,10 @@ h4.contact {
   font-weight: bold;  
 }
 p {
-  color:#fff; 
+  color:#555; 
   font-size:16px; 
 }
+
 h3.service a {
   color:#008CBA;
 }
@@ -385,15 +392,17 @@ h5 {
 }
 .leftPad12 {
   padding-left:12px;
+  text-align:left;
 }
 .leftPad54 {
   padding-left:54px;
+  text-align:left;
 }
 .quarries,.services,.logistics,.equipment,.hauling,.dump,.crushing {
   text-align: left;
   margin-top: 229px;
   padding: 30px;
-  background:url('/img/hoverBG.png') repeat;
+  background:url('../img/hoverBG.png') repeat;
   cursor: pointer;
   /* overflow:hidden;
   padding: 9% 7% 7% 7%;
@@ -424,6 +433,10 @@ p.faqTitle {
 }
 .sock {
   width:980px;
+}
+
+footer p {
+	color: #fff;
 }
 .footerOne,.footerTwo,.footerThree {
   margin-top: 42px; 
@@ -684,6 +697,7 @@ h3#returnmessage {
     padding: 40px;
   }
 }
+
 /* 700px ---------------------------*/
 @media screen and (max-width: 700px) {
   .slidesjs-container {
@@ -727,7 +741,7 @@ h3#returnmessage {
     width: 100%;    
   }
   .quarry {
-    background: url('/img/pitFooter.jpg');
+    background: url('../img/pitFooter.jpg');
     height:initial;
   }
   .footerTwo {
