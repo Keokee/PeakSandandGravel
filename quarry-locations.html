@@ -6,14 +6,39 @@
 <title>Pit Locations: Peak Sand and Gravel</title>
 <link rel="stylesheet" href="css/foundation.css" />
 <link rel="stylesheet" href="css/styles.css" />
-<link href="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-<script src="js/jquery.js"></script>
-<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery.slides.min.js"></script>
 <script src="js/modernizr.js"></script>
 <script src="js/foundation.min.js"></script>
 <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script> -->
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<style>
+  div.featherlight div.featherlight-content {
+    padding: 2em;
+    border: 0;
+  }
+  div.featherlight button.featherlight-close-icon {
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+  }
+  div.featherlight button.featherlight-close-icon:hover {
+    background-color: #CCC;
+  }
+  .pricing-embed {
+    margin: 0;
+    height: 100%;
+  }
+  .pricing-embed object {
+    min-width: 70vw;
+    min-height: 85vh;
+    border: none;
+  }
+  .row.gravel a {
+    font-size: 12px;
+  }
+</style>
 </head>
 <body>
 <header>
@@ -51,52 +76,52 @@
       </p>
 		</div>
     <div class="large-4 columns">
-			<h3 class="location dover">Kootenai</h3>
-			<p class="dover">
+      <h3 class="location kootenai">Kootenai</h3>
+      <p class="kootenai">
         2076 N. Kootenai Road<br/>
 				Sandpoint, ID 83864<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023_kootenai_pit_eff_Feb2023.png">PRICE LIST</a>
-			</p>
-			</div>
-		
-		<div class="large-4 columns">
-			<h3 class="location fighting">Dover</h3>
-			<p class="fighting">
-        23813 Hwy 2<br/>
-				Dover, ID 83825<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023_dover_pit_eff_June2023.png">PRICE LIST</a>
+				<a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_kootenai_pit_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
 			</p>
     </div>
-    <div class="large-4 columns">
-			<h3 class="location bodie">Colburn</h3>
-			<p class="bodie">
-        581 Colburn Road<br/>
-				Sandpoint, ID 83864<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023_colburn_eff_Feb2023.png">PRICE LIST</a>
-			</p>
-		</div>
+		
 		<div class="large-4 columns">
-			<h3 class="location kootenai">Fighting Creek</h3>
-			<p class="kootenai">
-        23100 US-95<br/>
-				Coeur D’Alene, ID 83814<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023_fcq_eff_Feb2023.png">PRICE LIST</a>
-			</p>
+      <h3 class="location dover">Dover</h3>
+      <p class="dover">
+      23813 Hwy 2<br/>
+      Dover, ID 83825<br />
+      <a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_dover_pit_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
+    </p>
+    </div>
+    <div class="large-4 columns">
+			<h3 class="location colburn">Colburn</h3>
+      <p class="colburn">
+      581 Colburn Road<br/>
+      Sandpoint, ID 83864<br />
+      <a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_colburn_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
+    </p>
+  </div>
+  <div class="large-4 columns">
+    <h3 class="location fighting">Fighting Creek</h3>
+    <p class="fighting">
+      23100 US-95<br/>
+      Coeur D’Alene, ID 83814<br />
+      <a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_fcq_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
+    </p>
 		</div>
     <div class="large-4 columns">
-			<h3 class="location colburn">Cow Creek Pit</h3>
-			<p class="colburn">
+      <h3 class="location bonners">Cow Creek Pit</h3>
+      <p class="bonners">
         Fitzpatrick Road<br/>
 				Bonners Ferry, ID 83805<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023_cowcreek_pit_eff_Feb2023.png">PRICE LIST</a>
+				<a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_cowcreek_pit_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
 			</p>
 		</div>		
 		<div class="large-4 columns">
-			<h3 class="location bonners">Bodie</h3>
-			<p class="bonners">
+      <h3 class="location bodie">Bodie</h3>
+      <p class="bodie">
         N. Bodie Canyon Road<br/>
 				Priest River, ID 83856<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023_bodie_quarry_eff_Feb2023.png">PRICE LIST</a>
+				<a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_bodie_quarry_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
 			</p>
 		</div>
 		<div class="large-4 columns">
@@ -104,7 +129,7 @@
 			<p class="tensed">
         Tensed<br/>
 				ID<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023_tensedcreek_eff_Mar2023.png">PRICE LIST</a>
+				<a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_tensedcreek_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
 			</p>
 		</div>
     <div class="large-4 columns">
@@ -112,7 +137,7 @@
 			<p class="clark-fork">
         58345 HWY 200<br/>
 				Clark Fork, ID<br />
-				<a style="font-size: 12px;" data-featherlight href="img/pricing/prices_2023-05_cf-vogel _eff.png">PRICE LIST</a>
+				<a data-featherlight="<figure class='pricing-embed'><object type='application/pdf' data='pdf/pricing/prices_2023-07_cf-vogel_eff.pdf#&navpanes=0' /></figure>">PRICE LIST</a>
 			</p>
 		</div>
 	</div>
